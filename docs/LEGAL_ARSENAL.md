@@ -253,6 +253,63 @@ Verified as of April 2026:
 
 ---
 
+## 🔥 #15 — Hidden Dealer Fees (THE UNDISCLOSED MARKUP)
+
+**This is the single most explosive story in residential solar.** Added April 2026.
+
+### What it is
+Solar lenders (GoodLeap, Mosaic, Sunlight Financial, Dividend, Service Finance) add a "dealer fee" — a markup of 10-36% of the cash price — directly onto the loan principal. The homeowner borrows the dealer fee without knowing it exists. The fee is paid to the lender and/or the installer, not for any additional product or service.
+
+### The numbers (all primary-source verified)
+
+- **CFPB Issue Spotlight, August 2024:** Dealer fees can "increase the loan principal by 30 percent or more above the cash price"
+- **Minnesota AG v. GoodLeap, Sunlight, Mosaic, Dividend (March 8, 2024):** Dealer fees ranged from 10% to 36% of the project cost; over 5,000 Minnesota systems affected; $35 million total in hidden fees on those loans
+- **GoodLeap specifically:** 853 Minnesota loans, average dealer fee of 19.32% per loan, average $7,552.19 added to each borrower's loan balance (all from the AG's complaint)
+- **Mosaic specifically:** 2,147 Minnesota loans, $85.5 million total volume, 2018-2023
+- **Tennessee v. Solar Titan (Ideal Horizon Benefits):** March 2024 filing; Mosaic's defense motion was denied
+- **Mosaic Chapter 11 filing (2025):** Center for Responsible Lending report "The Shady Side of Solar System Financing" (July 2024) and CFPB findings were central to the deteriorating Mosaic financial position
+
+### The lie homeowners were told
+The sales pitch is that the solar system costs (for example) $50,000, financed at 1.99% over 25 years. What actually happened:
+
+- Cash price: $35,000
+- Dealer fee added to loan: $15,000 (43% markup)
+- Loan principal disclosed to homeowner: $50,000
+- APR disclosed under TILA: 1.99% (looks amazing)
+- Effective APR if the $15,000 markup is treated as a finance charge: 10-15%+
+
+The dealer fee is how lenders subsidize the advertised low interest rate. They make their money on the markup at the front end, not the interest at the back end. This was industry practice — sales reps were often **contractually prohibited from discussing dealer fees** with customers. Reps who mentioned them faced termination.
+
+### Why this matters legally
+
+1. **TILA violation.** The dealer fee should arguably be a "finance charge" under 15 U.S.C. § 1605 because it is a cost of credit. Treating it as part of the cash price understates the APR — a material disclosure defect that extends TILA rescission to 3 years.
+
+2. **FTC Holder Rule attack.** Under 16 C.F.R. § 433.2, the homeowner can assert against the lender the same misrepresentation claims available against the installer — and the dealer fee flows directly to the lender, so the lender participated in the scheme.
+
+3. **State UDAP statutes.** The Minnesota AG complaint (Hennepin County Case No. 27-CV-24-3558) specifically frames this as consumer fraud under Minnesota's Consumer Fraud Act. Every state's UDAP statute catches this pattern.
+
+4. **State disclosure statutes.** Some states (California, Connecticut post-SB 297, New York) now require specific disclosure of dealer fees or the cash price alongside the financed price.
+
+5. **Unconscionability.** A 30-40% hidden markup on a 25-year loan checks both prongs of unconscionability doctrine.
+
+### How to find out if you have dealer fees
+
+Ask the installer (or pull from docs) for a cash price vs. financed price comparison:
+- If the "cash price" is much lower than your loan principal, the difference is almost always a dealer fee
+- If the installer refuses to provide a cash price, that IS the evidence
+- Pull the CFPB complaint database (consumerfinance.gov) for your specific lender to see others' reports
+
+### Primary source citations
+- [CFPB Issue Spotlight: Solar Financing (Aug 2024)](https://files.consumerfinance.gov/f/documents/cfpb_solar-financing-issue-spotlight_2024-08.pdf)
+- [Minnesota AG Complaint: State v. GoodLeap et al.](https://www.ag.state.mn.us/Office/Communications/2024/docs/SolarLending_Complaint.pdf) (Case 27-CV-24-3558)
+- [Center for Responsible Lending report: "The Shady Side of Solar System Financing" (July 2024)](https://www.responsiblelending.org/)
+- [CFPB consumer complaint database for solar loans](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+### Article framing
+> "When your solar salesperson pitched you on a $50,000 system at 1.99% APR, here is what they were legally forbidden from telling you: somewhere between $5,000 and $20,000 of that 'price' was never a price at all. It was a hidden fee — paid to the lender, baked into your loan principal, and excluded from the APR calculation. The Consumer Financial Protection Bureau documented this in a 2024 report. The Minnesota Attorney General sued GoodLeap, Mosaic, Sunlight Financial, and Dividend over it. Mosaic went bankrupt partly because of it. And sales reps at these companies were fired if they mentioned it to customers. This is the story nobody in the industry wants told."
+
+---
+
 ## 📚 COMPANION DOCTRINES (Add to Articles as Supporting Authority)
 
 ### Rescission in Equity (Common Law)
