@@ -2,18 +2,23 @@
 
 Framework, playbooks, research, and content matrix for SolarComplaints.co.
 
-## 🚀 Reading Order (Start Here)
+## 🚀 For AI Agents — START HERE
 
-### Setup
-1. **[CLAUDE_CODE_MCP_SETUP.md](./CLAUDE_CODE_MCP_SETUP.md)** — Connect Claude Code to all MCP servers and APIs
+### If you are picking up Batch 1 article slots 5-10:
+👉 **[AGENT_DISPATCH_BATCH1.md](./AGENT_DISPATCH_BATCH1.md)** ← READ FIRST. Per-slot briefs, workflow, definition of done.
+
+### Setup (do once)
+1. **[CLAUDE_CODE_MCP_SETUP.md](./CLAUDE_CODE_MCP_SETUP.md)** — Connect Claude Code to MCP servers and APIs
 
 ### Operations playbook
-2. **[HANDOFF_FRAMEWORK.md](./HANDOFF_FRAMEWORK.md)** — Voice, article template, API, SEO rules
+2. **[HANDOFF_FRAMEWORK.md](./HANDOFF_FRAMEWORK.md)** — Voice, article template, API rules
 3. **[framework_v2.py](./framework_v2.py)** — Reusable Python helpers (CTA cards, case studies, schema)
 
-### Content research and planning (THE CORE)
-4. **[LEGAL_ARSENAL.md](./LEGAL_ARSENAL.md)** ← THE GOLD — 14 verified legal loopholes with primary source citations, case law, and exact statutory language. Use this for every article.
-5. **[ARTICLE_MATRIX.md](./ARTICLE_MATRIX.md)** ← THE ROADMAP — 40+ article topics organized by legal angle, tier, and priority. Claude Code picks any row and publishes.
+### Content research and planning
+4. **[LEGAL_ARSENAL.md](./LEGAL_ARSENAL.md)** — 15 verified legal loopholes with primary source citations + case law
+5. **[ARTICLE_MATRIX.md](./ARTICLE_MATRIX.md)** — 40+ article topics organized by tier and priority
+6. **[MASTER_SLATE_APR_2026.md](./MASTER_SLATE_APR_2026.md)** — Active production slate (Batch 1 + 2 + 3)
+7. **[AGENT_DISPATCH_BATCH1.md](./AGENT_DISPATCH_BATCH1.md)** — Specific briefs for current open slots
 
 ---
 
@@ -27,14 +32,14 @@ Framework, playbooks, research, and content matrix for SolarComplaints.co.
 
 ## 🎯 Core Workflow
 
-1. Open `ARTICLE_MATRIX.md` → pick the next article in publishing order
-2. Open `LEGAL_ARSENAL.md` → pull the exact legal citations for that article
+1. Open `AGENT_DISPATCH_BATCH1.md` → claim a slot
+2. Open `LEGAL_ARSENAL.md` → pull the exact legal citations for your slot's loophole
 3. Open `HANDOFF_FRAMEWORK.md` → apply the 10/10 template and voice rules
 4. Use `framework_v2.py` for Python helpers
-5. Generate hero image via fal.ai Flux Pro
+5. Generate hero image via fal.ai Flux Pro (prompt formula in dispatch doc)
 6. Publish + push to GitHub + submit to Bing IndexNow
-7. Verify `seoWarnings: []` on API response
+7. Verify `seoWarnings: []` and update articles/INDEX.md
 
 ## ⚠️ Security
 
-Public repo. Never commit API keys. Use environment variables from `~/.solarcomplaints-secrets.sh` (template in CLAUDE_CODE_MCP_SETUP.md). GitHub push protection will block commits containing detected secrets.
+Public repo. Never commit API keys. Use environment variables from `~/.solarcomplaints-secrets.sh` (template in CLAUDE_CODE_MCP_SETUP.md).
