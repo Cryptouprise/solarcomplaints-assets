@@ -30,6 +30,7 @@ Central repository for SolarComplaints.co media, documentation, and article back
 - **[docs/HANDOFF_FRAMEWORK.md](./docs/HANDOFF_FRAMEWORK.md)** — Master content playbook
 - **[docs/LEGAL_ARSENAL.md](./docs/LEGAL_ARSENAL.md)** — Verified legal research (14 loopholes + case law) ⭐
 - **[docs/ARTICLE_MATRIX.md](./docs/ARTICLE_MATRIX.md)** — 40+ article topics with priority + SEO intent ⭐
+- **[docs/TEAM_PROWESS_PLAYBOOK.md](./docs/TEAM_PROWESS_PLAYBOOK.md)** — Team operating system with measurable execution targets
 - **[docs/framework_v2.py](./docs/framework_v2.py)** — Python helpers
 - **[articles/INDEX.md](./articles/INDEX.md)** — Published articles with live URLs
 

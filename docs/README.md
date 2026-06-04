@@ -19,6 +19,7 @@ Framework, playbooks, research, and content matrix for SolarComplaints.co.
 5. **[ARTICLE_MATRIX.md](./ARTICLE_MATRIX.md)** — 40+ article topics organized by tier and priority
 6. **[MASTER_SLATE_APR_2026.md](./MASTER_SLATE_APR_2026.md)** — Active production slate (Batch 1 + 2 + 3)
 7. **[AGENT_DISPATCH_BATCH1.md](./AGENT_DISPATCH_BATCH1.md)** — Specific briefs for current open slots
+8. **[TEAM_PROWESS_PLAYBOOK.md](./TEAM_PROWESS_PLAYBOOK.md)** — Measurable team performance framework and operating cadence
 
 ---
 
