@@ -33,6 +33,16 @@ Central repository for SolarComplaints.co media, documentation, and article back
 - **[docs/framework_v2.py](./docs/framework_v2.py)** — Python helpers
 - **[articles/INDEX.md](./articles/INDEX.md)** — Published articles with live URLs
 
+## ✅ SEO validation
+
+Run the dependency-free repository audit before publishing or updating article backups:
+
+```bash
+python3 scripts/seo_audit.py
+```
+
+The audit checks required metadata, search-snippet limits, canonical slug URLs, hero images, JSON-LD, direct answers, internal links, and tracked CTAs.
+
 ## ✉️ Owner
 
 Chase Wyatt — Infinite AI / Gosunlite LLC

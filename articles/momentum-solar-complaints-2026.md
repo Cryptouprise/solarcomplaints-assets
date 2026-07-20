@@ -6,6 +6,8 @@ read_time: 10 minutes
 category: company
 live_url: https://solarcomplaints.co/blog/momentum-solar-complaints-2026
 hero_image: https://cdn.jsdelivr.net/gh/Cryptouprise/solarcomplaints-assets@main/heroes/momentum-solar-complaints-2026.jpg
+meta_title: Momentum Solar Complaints — 2026 Homeowner Guide
+meta_description: Review common Momentum Solar complaints involving production, service, tax-credit claims, and financing, plus practical steps to document your case.
 ---
 
 # Momentum Solar Complaints 2026 — What Homeowners Should Know Now
@@ -213,4 +215,3 @@ Almost certainly yes. Momentum Solar primarily routes loans through GoodLeap, So
 ### What should I do first if I have problems with Momentum Solar?
 
 Document, then act. Pull every relevant document immediately: the sales proposal (the savings projection is your most important single document), contract, financing agreement, monitoring portal login, warranty card, and any written communications. Pull 12 months of monitoring data and compare to the sales projection — quantify the production shortfall. Document every warranty call or email — date, time, person, ticket number, response received or lack thereof. Identify your lender (GoodLeap, Mosaic, Sunlight Financial, or Service Finance) — they are who you will be filing the FTC Holder Rule claim against, not Momentum. Calculate the dealer fee by requesting the cash price in writing. Once documentation is complete, file a formal Holder Rule claim against the lender and a parallel UDAP claim against Momentum directly under your state's deceptive trade practices statute. Do NOT stop paying the loan without legal cover — coordinate any payment changes with your filed claim.
-

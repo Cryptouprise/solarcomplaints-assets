@@ -38,7 +38,8 @@ Framework, playbooks, research, and content matrix for SolarComplaints.co.
 4. Use `framework_v2.py` for Python helpers
 5. Generate hero image via fal.ai Flux Pro (prompt formula in dispatch doc)
 6. Publish + push to GitHub + submit to Bing IndexNow
-7. Verify `seoWarnings: []` and update articles/INDEX.md
+7. Run `python3 scripts/seo_audit.py` from the repository root
+8. Verify `seoWarnings: []` and update articles/INDEX.md
 
 ## ⚠️ Security
 

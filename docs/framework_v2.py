@@ -1,5 +1,9 @@
 """v2 framework - 10/10 article components for SolarComplaints.co"""
 
+import json
+import os
+from urllib.request import Request, urlopen
+
 def byline(author_note="Reviewed by the SolarComplaints.co editorial team"):
     """E-E-A-T byline at top of every article. Critical for Google's helpful content updates on legal topics."""
     return f"""
@@ -91,7 +95,6 @@ def outcomes_section():
 
 def newsarticle_schema(headline, description, publish_date, slug, keywords):
     """JSON-LD NewsArticle schema for news-angle articles. Boosts AEO and featured snippets."""
-    import json
     schema = {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
@@ -122,7 +125,6 @@ def newsarticle_schema(headline, description, publish_date, slug, keywords):
 
 def howto_schema(name, description, steps):
     """JSON-LD HowTo schema for action-step articles. Wins the featured snippet."""
-    import json
     step_items = [{"@type": "HowToStep", "position": i+1, "name": s["name"], "text": s["text"]} for i, s in enumerate(steps)]
     schema = {
         "@context": "https://schema.org",
@@ -134,31 +136,40 @@ def howto_schema(name, description, steps):
     return f'<script type="application/ld+json">{json.dumps(schema)}</script>\n'
 
 
-ADMIN_KEY = "sc_admin_Q55em5eWnehqzM2cuEjFmc5x9q_ZjLQ2yn1iUnMyVqk"
 API_POST = "https://solarcomplaints.co/api/admin/blog"
 
 def publish(payload, is_update=False, slug=None):
-    import json, subprocess
+    admin_key = os.environ.get("SC_ADMIN_KEY")
+    if not admin_key:
+        raise RuntimeError("SC_ADMIN_KEY must be set before publishing")
     if is_update and slug:
         url = f"{API_POST}/{slug}"
         method = "PUT"
     else:
         url = API_POST
         method = "POST"
-    result = subprocess.run([
-        "curl", "-s", "-X", method, url,
-        "-H", f"X-Admin-Key: {ADMIN_KEY}",
-        "-H", "Content-Type: application/json",
-        "-d", json.dumps(payload)
-    ], capture_output=True, text=True)
-    return result.stdout
+    request = Request(
+        url,
+        data=json.dumps(payload).encode(),
+        headers={"X-Admin-Key": admin_key, "Content-Type": "application/json"},
+        method=method,
+    )
+    with urlopen(request, timeout=30) as response:
+        return response.read().decode()
 
 def submit_bing(slug):
-    import subprocess
-    result = subprocess.run([
-        "curl", "-s", "-o", "/dev/null", "-w", "%{http_code}",
-        "-X", "POST", "https://api.indexnow.org/indexnow",
-        "-H", "Content-Type: application/json; charset=utf-8",
-        "-d", f'{{"host":"solarcomplaints.co","key":"a9dc40ec318d70ab0cee3b6b492b24ce76502dccd7b1b5e3e6e1abe8d1e97a5c","keyLocation":"https://solarcomplaints.co/a9dc40ec318d70ab0cee3b6b492b24ce76502dccd7b1b5e3e6e1abe8d1e97a5c.txt","urlList":["https://solarcomplaints.co/blog/{slug}"]}}'
-    ], capture_output=True, text=True)
-    return result.stdout
+    key = "a9dc40ec318d70ab0cee3b6b492b24ce76502dccd7b1b5e3e6e1abe8d1e97a5c"
+    payload = {
+        "host": "solarcomplaints.co",
+        "key": key,
+        "keyLocation": f"https://solarcomplaints.co/{key}.txt",
+        "urlList": [f"https://solarcomplaints.co/blog/{slug}"],
+    }
+    request = Request(
+        "https://api.indexnow.org/indexnow",
+        data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json; charset=utf-8"},
+        method="POST",
+    )
+    with urlopen(request, timeout=30) as response:
+        return str(response.status)

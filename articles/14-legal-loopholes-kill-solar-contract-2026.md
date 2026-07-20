@@ -7,6 +7,8 @@ category: legal
 tier: PILLAR (P1)
 live_url: https://solarcomplaints.co/blog/14-legal-loopholes-kill-solar-contract-2026
 hero_image: https://cdn.jsdelivr.net/gh/Cryptouprise/solarcomplaints-assets@main/heroes/14-legal-loopholes-kill-solar-contract-2026.jpg
+meta_title: 14 Solar Contract Loopholes — 2026 Legal Guide
+meta_description: Learn 14 legal ways to challenge a solar contract, including the FTC Holder Rule, TILA rescission, state consumer laws, fraud, and licensing claims.
 ---
 
 # 14 Legal Loopholes That Can Kill a Solar Contract (2026 Complete Guide)
@@ -391,4 +393,3 @@ Legally yes, but bankruptcy actually creates strong grounds to attack the loan. 
 ### How many legal loopholes do I need to cancel my solar contract?
 
 One can be enough when the facts are strong — particularly California B&P 7031, forged e-signature, or a clear TILA rescission case. But most full contract cancellations stack 3-4 overlapping claims. A typical strong California case might allege: FTC Holder Rule against the lender, CLRA and UCL misrepresentation against the installer, common-law fraudulent inducement as backup, B&P 7031 if the license was invalid, unconscionability attack on the escalator clause, and elder abuse enhanced damages if the homeowner is 65 or older. Stacking these forces settlement. The best outcome is full contract cancellation with the solar equipment retained.
-

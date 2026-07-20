@@ -6,6 +6,8 @@ read_time: 13 minutes
 category: legal
 live_url: https://solarcomplaints.co/blog/ftc-holder-rule-solar-loan-explained-2026
 hero_image: https://cdn.jsdelivr.net/gh/Cryptouprise/solarcomplaints-assets@main/heroes/ftc-holder-rule-solar-loan-explained-2026.jpg
+meta_title: FTC Holder Rule for Solar Loans — 2026 Guide
+meta_description: Learn how the FTC Holder Rule can let homeowners raise an installer's fraud or contract breach against a solar lender such as GoodLeap or Mosaic.
 ---
 
 # FTC Holder Rule Explained — The Federal Law That Makes Your Solar Lender Pay
@@ -252,4 +254,3 @@ Any claim or defense the consumer could have asserted against the installer. Exa
 ### How much can I actually recover under the FTC Holder Rule?
 
 Statutorily, the recovery cap is 'amounts paid by the debtor' — meaning the cash you have actually paid to the lender to date. If you have paid $8,000 on a $50,000 loan, your statutory cash recovery is $8,000. But in practice, that cap is rarely the binding constraint for two reasons. First, the Holder Rule allows the consumer to raise the seller's misconduct as a defense to the lender's enforcement of the remaining balance — so even if you cannot affirmatively recover beyond amounts paid, you can defeat collection of the remaining $42,000. Second, lenders almost never let Holder Rule cases go to trial — settlement happens. Settlements typically include principal reduction or full balance forgiveness (eliminating the remaining loan), credit reporting cleanup ('paid in full' status), dealer fee disgorgement, and sometimes attorney's fees. The practical recovery is usually multiples of the statutory cap when you account for balance forgiveness.
-

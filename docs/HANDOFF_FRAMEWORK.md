@@ -54,8 +54,8 @@ Every article must sound like a friend who knows the legal landscape explaining 
 ## 3. API Access & Publishing Mechanics
 
 **Admin Base URL:** `https://solarcomplaints.co/api/admin`
-**Admin Key:** `sc_admin_Q55em5eWnehqzM2cuEjFmc5x9q_ZjLQ2yn1iUnMyVqk`
-**Header:** `X-Admin-Key: sc_admin_Q55em5eWnehqzM2cuEjFmc5x9q_ZjLQ2yn1iUnMyVqk`
+**Admin Key:** Load `SC_ADMIN_KEY` from the local secrets file described in `CLAUDE_CODE_MCP_SETUP.md`.
+**Header:** `X-Admin-Key: $SC_ADMIN_KEY`
 
 **Create a new post:** `POST /blog` with full payload (see Section 5)
 **Update existing post:** `PUT /blog/{slug}` with any subset of fields
@@ -334,7 +334,7 @@ Pulled via `GET /api/admin/blog?limit=200&published=true`. Categories:
 - **AEO (6):** state-level consumer rights pages
 - **City-company (1+):** orlando-solar-complaints etc
 
-Check the current list before writing anything new: `curl -s "https://solarcomplaints.co/api/admin/blog?limit=200&published=true" -H "X-Admin-Key: sc_admin_Q55em5eWnehqzM2cuEjFmc5x9q_ZjLQ2yn1iUnMyVqk"` — avoid duplicating topics.
+Check the current list before writing anything new: `curl -s "https://solarcomplaints.co/api/admin/blog?limit=200&published=true" -H "X-Admin-Key: $SC_ADMIN_KEY"` — avoid duplicating topics.
 
 ---
 

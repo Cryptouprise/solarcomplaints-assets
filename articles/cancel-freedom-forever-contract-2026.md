@@ -6,6 +6,8 @@ read_time: 11 minutes
 category: news
 live_url: https://solarcomplaints.co/blog/cancel-freedom-forever-contract-2026
 hero_image: https://cdn.jsdelivr.net/gh/Cryptouprise/solarcomplaints-assets@main/heroes/cancel-freedom-forever-contract-2026.jpg
+meta_title: Cancel a Freedom Forever Contract After Bankruptcy
+meta_description: Learn the legal options for challenging a Freedom Forever contract or solar loan after bankruptcy, plus the documents to collect and mistakes to avoid.
 ---
 
 # How to Cancel a Freedom Forever Contract After the April 2026 Bankruptcy
@@ -238,4 +240,3 @@ Lease customers have a parallel but different path. The lessor is usually a spec
 ### How does the Texas AG investigation affect my Freedom Forever case?
 
 Texas Attorney General Ken Paxton announced a formal investigation of Freedom Forever and Sunrun on April 6, 2026 (nine days before Freedom Forever's Chapter 11 filing) under the Texas Deceptive Trade Practices Act. For Texas customers, this is significant: (1) the AG investigation generates discovery that supports individual cases; (2) Texas DTPA awards treble damages plus attorney's fees for knowing violations; (3) consumer attorneys can use the AG investigation as documentary foundation, reducing the cost of building individual cases; (4) lenders typically settle Texas DTPA claims more favorably during active AG investigations to avoid being named in expanded actions. Texas Freedom Forever customers have particularly strong leverage right now compared to customers in states without active investigations. This window typically lasts 6-12 months from the AG announcement.
-

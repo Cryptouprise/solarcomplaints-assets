@@ -6,6 +6,8 @@ read_time: 14 minutes
 category: legal
 live_url: https://solarcomplaints.co/blog/hidden-dealer-fee-solar-loan-30-percent-2026
 hero_image: https://cdn.jsdelivr.net/gh/Cryptouprise/solarcomplaints-assets@main/heroes/hidden-dealer-fee-solar-loan-30-percent-2026.jpg
+meta_title: Hidden Solar Loan Dealer Fees — 2026 Legal Guide
+meta_description: Solar dealer fees can add 10–36% to a financed system. Learn how to spot the markup, compare cash and loan prices, and understand possible legal claims.
 ---
 
 # The Hidden Dealer Fee — How Solar Lenders Added 30% to Your Loan and Told Your Salesperson to Shut Up About It
@@ -267,4 +269,3 @@ Yes — confirmed by both the CFPB Issue Spotlight on Solar Financing (August 20
 ### What happened to Solar Mosaic and does it affect my loan?
 
 Solar Mosaic LLC filed Chapter 11 bankruptcy in 2025. The official narrative blamed market conditions, but legal pressure was a major factor: nearly 160 CFPB complaints since 2019, the active Minnesota AG case, the Tennessee Solar Titan litigation naming Mosaic in motion-to-dismiss filings, and stacking California cases. The bankruptcy did NOT erase customer claims — it routed them through bankruptcy court as pre-petition unsecured claims. Forbright Bank acquired Mosaic's $8B+ servicing portfolio. For homeowners with active Mosaic loans, FTC Holder Rule and dealer fee misrepresentation claims remain viable, often producing better settlements during bankruptcy administration than would have been available before.
-
